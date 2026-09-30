@@ -1,0 +1,22 @@
+Model,case,passed,detail
+XGBoost,all_features_missing,True,"2 MIC calls, P range 0.89-0.99"
+XGBoost,extreme_values_x50,True,"0 MIC calls, P range 0.00-0.73"
+XGBoost,extreme_negative_values,True,"0 MIC calls, P range 0.00-0.44"
+XGBoost,unseen_antimicrobial,True,"0 MIC calls, P range 0.00-1.00"
+XGBoost,unseen_categories,True,"0 MIC calls, P range 0.00-1.00"
+XGBoost,single_well_series,True,"0 MIC calls, P range 0.40-1.00"
+XGBoost,deterministic_repeat_call,True,max diff 0.0e+00
+SVM-RBF,all_features_missing,True,"2 MIC calls, P range 0.92-1.00"
+SVM-RBF,extreme_values_x50,True,"0 MIC calls, P range 0.00-0.01"
+SVM-RBF,extreme_negative_values,True,"2 MIC calls, P range 0.00-0.78"
+SVM-RBF,unseen_antimicrobial,True,"0 MIC calls, P range 0.00-1.00"
+SVM-RBF,unseen_categories,True,"0 MIC calls, P range 0.00-1.00"
+SVM-RBF,single_well_series,True,"1 MIC calls, P range 0.58-1.00"
+SVM-RBF,deterministic_repeat_call,True,max diff 0.0e+00
+Transformer,all_features_missing,True,"2 MIC calls, P range 0.97-1.00"
+Transformer,extreme_values_x50,True,"0 MIC calls, P range 0.00-0.78"
+Transformer,extreme_negative_values,True,"0 MIC calls, P range 0.01-0.89"
+Transformer,unseen_antimicrobial,True,"0 MIC calls, P range 0.01-1.00"
+Transformer,unseen_categories,True,"0 MIC calls, P range 0.01-1.00"
+Transformer,single_well_series,True,"0 MIC calls, P range 0.44-1.00"
+Transformer,deterministic_repeat_call,True,max diff 0.0e+00

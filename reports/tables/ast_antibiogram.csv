@@ -1,0 +1,25 @@
+Organism,Antimicrobial,S,I,R,n
+Enterococcus faecalis,Ampicillin,95.5,0.0,4.5,22
+Enterococcus faecalis,Ceftriaxone,9.5,23.8,66.7,21
+Enterococcus faecalis,Daptomycin,100.0,0.0,0.0,16
+Enterococcus faecalis,Meropenem,40.9,54.5,4.5,22
+Enterococcus faecalis,Oxacillin,0.0,0.0,100.0,25
+Enterococcus faecalis,Vancomycin,93.1,0.0,6.9,29
+Enterococcus faecium,Ampicillin,15.4,0.0,84.6,13
+Enterococcus faecium,Ceftriaxone,0.0,0.0,100.0,8
+Enterococcus faecium,Daptomycin,83.3,0.0,16.7,12
+Enterococcus faecium,Meropenem,0.0,8.3,91.7,12
+Enterococcus faecium,Oxacillin,0.0,0.0,100.0,8
+Enterococcus faecium,Vancomycin,23.1,0.0,76.9,13
+Staphylococcus aureus,Ampicillin,26.1,0.0,73.9,23
+Staphylococcus aureus,Ceftriaxone,56.5,0.0,43.5,23
+Staphylococcus aureus,Daptomycin,90.5,0.0,9.5,21
+Staphylococcus aureus,Meropenem,71.4,14.3,14.3,21
+Staphylococcus aureus,Oxacillin,60.0,0.0,40.0,20
+Staphylococcus aureus,Vancomycin,96.4,3.6,0.0,28
+Staphylococcus epidermidis,Ampicillin,11.1,0.0,88.9,18
+Staphylococcus epidermidis,Ceftriaxone,19.0,19.0,61.9,21
+Staphylococcus epidermidis,Daptomycin,100.0,0.0,0.0,23
+Staphylococcus epidermidis,Meropenem,61.9,19.0,19.0,21
+Staphylococcus epidermidis,Oxacillin,40.9,0.0,59.1,22
+Staphylococcus epidermidis,Vancomycin,100.0,0.0,0.0,24

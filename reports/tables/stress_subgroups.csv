@@ -1,0 +1,82 @@
+Model,level,group,n,metric,value
+XGBoost,organism,Enterococcus faecalis,271,T2_acc,0.985239852398524
+XGBoost,organism,Enterococcus faecium,121,T2_acc,0.9834710743801653
+XGBoost,organism,Escherichia coli,347,T2_acc,1.0
+XGBoost,organism,Klebsiella pneumoniae,138,T2_acc,0.9927536231884058
+XGBoost,organism,Pseudomonas aeruginosa,198,T2_acc,0.9848484848484849
+XGBoost,organism,Staphylococcus aureus,243,T2_acc,0.9711934156378601
+XGBoost,organism,Staphylococcus epidermidis,222,T2_acc,0.972972972972973
+XGBoost,drug,Ampicillin,16,EA,1.0
+XGBoost,drug,Ampicillin,16,AA,1.0
+XGBoost,drug,Ceftriaxone,16,EA,1.0
+XGBoost,drug,Ceftriaxone,16,AA,0.875
+XGBoost,drug,Daptomycin,18,EA,1.0
+XGBoost,drug,Daptomycin,18,AA,1.0
+XGBoost,drug,Meropenem,17,EA,1.0
+XGBoost,drug,Meropenem,17,AA,0.9411764705882353
+XGBoost,drug,Oxacillin,17,EA,1.0
+XGBoost,drug,Oxacillin,17,AA,0.9411764705882353
+XGBoost,drug,Vancomycin,15,EA,1.0
+XGBoost,drug,Vancomycin,15,AA,0.9333333333333333
+XGBoost,organism,Enterococcus faecalis,31,EA,1.0
+XGBoost,organism,Enterococcus faecalis,31,AA,1.0
+XGBoost,organism,Enterococcus faecium,14,EA,1.0
+XGBoost,organism,Enterococcus faecium,14,AA,0.9285714285714286
+XGBoost,organism,Staphylococcus aureus,28,EA,1.0
+XGBoost,organism,Staphylococcus aureus,28,AA,0.8571428571428571
+XGBoost,organism,Staphylococcus epidermidis,26,EA,1.0
+XGBoost,organism,Staphylococcus epidermidis,26,AA,1.0
+SVM-RBF,organism,Enterococcus faecalis,271,T2_acc,0.981549815498155
+SVM-RBF,organism,Enterococcus faecium,121,T2_acc,0.9669421487603306
+SVM-RBF,organism,Escherichia coli,347,T2_acc,0.9913544668587896
+SVM-RBF,organism,Klebsiella pneumoniae,138,T2_acc,0.9927536231884058
+SVM-RBF,organism,Pseudomonas aeruginosa,198,T2_acc,0.98989898989899
+SVM-RBF,organism,Staphylococcus aureus,243,T2_acc,0.9876543209876543
+SVM-RBF,organism,Staphylococcus epidermidis,222,T2_acc,0.963963963963964
+SVM-RBF,drug,Ampicillin,16,EA,1.0
+SVM-RBF,drug,Ampicillin,16,AA,0.9375
+SVM-RBF,drug,Ceftriaxone,16,EA,1.0
+SVM-RBF,drug,Ceftriaxone,16,AA,1.0
+SVM-RBF,drug,Daptomycin,18,EA,1.0
+SVM-RBF,drug,Daptomycin,18,AA,1.0
+SVM-RBF,drug,Meropenem,17,EA,1.0
+SVM-RBF,drug,Meropenem,17,AA,0.9411764705882353
+SVM-RBF,drug,Oxacillin,17,EA,1.0
+SVM-RBF,drug,Oxacillin,17,AA,1.0
+SVM-RBF,drug,Vancomycin,15,EA,1.0
+SVM-RBF,drug,Vancomycin,15,AA,0.9333333333333333
+SVM-RBF,organism,Enterococcus faecalis,31,EA,1.0
+SVM-RBF,organism,Enterococcus faecalis,31,AA,1.0
+SVM-RBF,organism,Enterococcus faecium,14,EA,1.0
+SVM-RBF,organism,Enterococcus faecium,14,AA,0.9285714285714286
+SVM-RBF,organism,Staphylococcus aureus,28,EA,1.0
+SVM-RBF,organism,Staphylococcus aureus,28,AA,1.0
+SVM-RBF,organism,Staphylococcus epidermidis,26,EA,1.0
+SVM-RBF,organism,Staphylococcus epidermidis,26,AA,0.9230769230769231
+Transformer,organism,Enterococcus faecalis,271,T2_acc,0.977859778597786
+Transformer,organism,Enterococcus faecium,121,T2_acc,0.9669421487603306
+Transformer,organism,Escherichia coli,347,T2_acc,0.9942363112391931
+Transformer,organism,Klebsiella pneumoniae,138,T2_acc,0.9927536231884058
+Transformer,organism,Pseudomonas aeruginosa,198,T2_acc,0.9949494949494949
+Transformer,organism,Staphylococcus aureus,243,T2_acc,0.9711934156378601
+Transformer,organism,Staphylococcus epidermidis,222,T2_acc,0.9504504504504504
+Transformer,drug,Ampicillin,16,EA,1.0
+Transformer,drug,Ampicillin,16,AA,0.9375
+Transformer,drug,Ceftriaxone,16,EA,1.0
+Transformer,drug,Ceftriaxone,16,AA,0.875
+Transformer,drug,Daptomycin,18,EA,1.0
+Transformer,drug,Daptomycin,18,AA,0.9444444444444444
+Transformer,drug,Meropenem,17,EA,1.0
+Transformer,drug,Meropenem,17,AA,0.7647058823529411
+Transformer,drug,Oxacillin,17,EA,1.0
+Transformer,drug,Oxacillin,17,AA,1.0
+Transformer,drug,Vancomycin,15,EA,1.0
+Transformer,drug,Vancomycin,15,AA,0.8666666666666667
+Transformer,organism,Enterococcus faecalis,31,EA,1.0
+Transformer,organism,Enterococcus faecalis,31,AA,0.967741935483871
+Transformer,organism,Enterococcus faecium,14,EA,1.0
+Transformer,organism,Enterococcus faecium,14,AA,0.8571428571428571
+Transformer,organism,Staphylococcus aureus,28,EA,1.0
+Transformer,organism,Staphylococcus aureus,28,AA,0.8571428571428571
+Transformer,organism,Staphylococcus epidermidis,26,EA,1.0
+Transformer,organism,Staphylococcus epidermidis,26,AA,0.8846153846153846

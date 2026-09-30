@@ -1,0 +1,3 @@
+pair,n,marker+ R,marker+ not R,marker- R,marker- not R,concordance
+mecA vs oxacillin (staphylococci),42,21,0,0,21,1.0
+vanA/vanB vs vancomycin (enterococci),42,12,0,0,30,1.0

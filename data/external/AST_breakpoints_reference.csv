@@ -1,0 +1,25 @@
+Organism,Antimicrobial,Dilution_Range_ug_mL,N_Wells,DSI_Range,Susceptible_<=,Resistant_>=,Intermediate,Basis
+Enterococcus faecalis,Ampicillin,0.12-32,9,1-10,8,16,none,CLSI M100 clinical breakpoint
+Enterococcus faecalis,Ceftriaxone,0.12-64,10,1-11,8,64,16-32,Intrinsic resistance: no CLSI breakpoint; surrogate study cut-off
+Enterococcus faecalis,Daptomycin,0.06-8,8,1-9,2,8,4,CLSI M100 clinical breakpoint
+Enterococcus faecalis,Meropenem,0.06-16,9,1-10,4,16,8,Intrinsic resistance: no CLSI breakpoint; surrogate study cut-off
+Enterococcus faecalis,Oxacillin,0.06-8,8,1-9,2,4,none,Intrinsic resistance: no CLSI breakpoint; surrogate study cut-off
+Enterococcus faecalis,Vancomycin,0.25-32,8,1-9,4,32,8-16,CLSI M100 clinical breakpoint
+Enterococcus faecium,Ampicillin,0.12-32,9,1-10,8,16,none,CLSI M100 clinical breakpoint
+Enterococcus faecium,Ceftriaxone,0.12-64,10,1-11,8,64,16-32,Intrinsic resistance: no CLSI breakpoint; surrogate study cut-off
+Enterococcus faecium,Daptomycin,0.06-8,8,1-9,4,8,none,CLSI M100 (S = susceptible-dose dependent <=4)
+Enterococcus faecium,Meropenem,0.06-16,9,1-10,4,16,8,Intrinsic resistance: no CLSI breakpoint; surrogate study cut-off
+Enterococcus faecium,Oxacillin,0.06-8,8,1-9,2,4,none,Intrinsic resistance: no CLSI breakpoint; surrogate study cut-off
+Enterococcus faecium,Vancomycin,0.25-32,8,1-9,4,32,8-16,CLSI M100 clinical breakpoint
+Staphylococcus aureus,Ampicillin,0.12-32,9,1-10,0.12,0.25,none,No current CLSI MIC breakpoint (reported via oxacillin/penicillin); surrogate study cut-off
+Staphylococcus aureus,Ceftriaxone,0.12-64,10,1-11,8,64,16-32,No current CLSI MIC breakpoint (reported via oxacillin/penicillin); surrogate study cut-off
+Staphylococcus aureus,Daptomycin,0.06-8,8,1-9,1,2,none,"CLSI M100 (S <=1; MIC >=2 = non-susceptible, scored as R)"
+Staphylococcus aureus,Meropenem,0.06-16,9,1-10,4,16,8,No current CLSI MIC breakpoint (reported via oxacillin/penicillin); surrogate study cut-off
+Staphylococcus aureus,Oxacillin,0.06-8,8,1-9,2,4,none,CLSI M100 clinical breakpoint
+Staphylococcus aureus,Vancomycin,0.25-32,8,1-9,2,16,4-8,CLSI M100 clinical breakpoint
+Staphylococcus epidermidis,Ampicillin,0.12-32,9,1-10,0.12,0.25,none,No current CLSI MIC breakpoint (reported via oxacillin/penicillin); surrogate study cut-off
+Staphylococcus epidermidis,Ceftriaxone,0.12-64,10,1-11,8,64,16-32,No current CLSI MIC breakpoint (reported via oxacillin/penicillin); surrogate study cut-off
+Staphylococcus epidermidis,Daptomycin,0.06-8,8,1-9,1,2,none,"CLSI M100 (S <=1; MIC >=2 = non-susceptible, scored as R)"
+Staphylococcus epidermidis,Meropenem,0.06-16,9,1-10,4,16,8,No current CLSI MIC breakpoint (reported via oxacillin/penicillin); surrogate study cut-off
+Staphylococcus epidermidis,Oxacillin,0.06-8,8,1-9,0.25,0.5,none,CLSI M100 clinical breakpoint
+Staphylococcus epidermidis,Vancomycin,0.25-32,8,1-9,4,32,8-16,CLSI M100 clinical breakpoint

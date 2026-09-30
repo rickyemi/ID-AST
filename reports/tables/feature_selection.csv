@@ -1,0 +1,26 @@
+tier,feature,p,q_value,mutual_info,type,pass_fdr,pass_mi,selected,reason
+tier1_gram,Cell_Elongation_Index,0.0,0.0,0.48379649863657614,numeric,True,True,True,kept
+tier1_gram,Mean_Cell_Area_um2,0.0,0.0,0.48106632470891375,numeric,True,True,True,kept
+tier1_gram,KOH_String_Test,0.0,0.0,0.3879298217933142,categorical,True,True,True,kept
+tier1_gram,Crystal_Violet_Retention,0.0,0.0,0.3756422620235944,numeric,True,True,True,kept
+tier1_gram,Safranin_Intensity,0.0,0.0,0.3196594040187615,numeric,True,True,True,kept
+tier1_gram,Cell_Morphology,0.0,0.0,0.30861441413871976,categorical,True,True,True,kept
+tier1_gram,Stain_Hue_Angle_deg,0.0,0.0,0.2668062543673231,numeric,True,True,True,kept
+tier1_gram,Cell_Wall_Thickness_nm,0.0,0.0,0.25827538683072704,numeric,True,True,True,kept
+tier1_gram,Catalase,2.72320178875173e-234,3.0257797652796997e-234,0.10519130640938962,categorical,True,True,True,kept
+tier1_gram,Specimen_Source,1.8427694855255895e-15,1.8427694855255895e-15,0.006005454729738666,categorical,True,False,False,dropped: mutual information < 0.01
+tier2_growth,OD600_Read,0.0,0.0,0.48302818379950585,numeric,True,True,True,kept
+tier2_growth,Growth_Fold_Change,0.0,0.0,0.47913306465272343,numeric,True,True,True,kept
+tier2_growth,Time_to_Detection_h,0.0,0.0,0.4757225909190288,numeric,True,True,True,kept
+tier2_growth,Cell_Count_T4h,0.0,0.0,0.47146511443836103,numeric,True,True,False,dropped: redundant (|rho| > 0.95)
+tier2_growth,Occupied_Area_Fraction,0.0,0.0,0.43899242545246464,numeric,True,True,True,kept
+tier2_growth,Mean_Cell_Area_um2,1.6684913045271108e-29,2.502736956790666e-29,0.2620479117651271,numeric,True,True,True,kept
+tier2_growth,Cell_Elongation_Index,2.312173131079909e-66,3.853621885133182e-66,0.245980346997416,numeric,True,True,True,kept
+tier2_growth,Well_DSI,1.5487570623624037e-156,3.871892655906009e-156,0.061075185186653336,numeric,True,True,True,kept
+tier2_growth,Concentration_ug_mL,6.50793058482187e-139,1.3945565538904008e-138,0.06030406252877385,numeric,True,True,False,dropped: redundant (|rho| > 0.95)
+tier2_growth,Antimicrobial,7.211710703282943e-129,1.3521957568655517e-128,0.054584401575153915,categorical,True,True,True,kept
+tier2_growth,Inoculum_log10_CFU_mL,0.01765452611045424,0.0189155636897724,0.016891200704475695,numeric,True,True,True,kept
+tier2_growth,Cell_Count_T0,0.7191000803840291,0.7191000803840291,0.009240656369162714,numeric,False,False,False,dropped: FDR q >= 0.05
+tier2_growth,Incubation_Time_h,1.562592980376183e-09,1.9532412254702288e-09,0.007534840051777403,numeric,True,False,False,dropped: mutual information < 0.01
+tier2_growth,Growth_Control_OD600,2.5692366296608866e-12,3.5035044949921176e-12,0.005446334822222232,numeric,True,False,False,dropped: mutual information < 0.01
+tier2_growth,Specimen_Source,0.00010623521901044535,0.00012257909885820617,0.0018352734542294857,categorical,True,False,False,dropped: mutual information < 0.01

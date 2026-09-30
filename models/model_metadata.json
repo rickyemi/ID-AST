@@ -1,0 +1,182 @@
+{
+  "models": {
+    "XGBoost": {
+      "tier1_gram": {
+        "file": "tier1_gram_xgboost.joblib",
+        "features": [
+          "Crystal_Violet_Retention",
+          "Safranin_Intensity",
+          "Stain_Hue_Angle_deg",
+          "Cell_Wall_Thickness_nm",
+          "Mean_Cell_Area_um2",
+          "Cell_Elongation_Index",
+          "KOH_String_Test",
+          "Cell_Morphology",
+          "Catalase"
+        ],
+        "best_params": {
+          "colsample_bytree": 0.831261142176991,
+          "gamma": 0.9351332282682329,
+          "learning_rate": 0.06623659776144764,
+          "max_depth": 3,
+          "min_child_weight": 4,
+          "n_estimators": 409,
+          "reg_alpha": 0.0013056504703477952,
+          "reg_lambda": 6.031249654775616,
+          "subsample": 0.7799016533479063
+        },
+        "oof_cv_auc": 0.9969341061235817,
+        "decision_threshold": 0.7330266237258911,
+        "train_seconds": 16.5
+      },
+      "tier2_growth": {
+        "file": "tier2_growth_xgboost.joblib",
+        "features": [
+          "Growth_Fold_Change",
+          "Time_to_Detection_h",
+          "Occupied_Area_Fraction",
+          "OD600_Read",
+          "Well_DSI",
+          "Cell_Elongation_Index",
+          "Mean_Cell_Area_um2",
+          "Inoculum_log10_CFU_mL",
+          "Antimicrobial"
+        ],
+        "best_params": {
+          "colsample_bytree": 0.6668543055695109,
+          "gamma": 0.42860045376582234,
+          "learning_rate": 0.08951966918518124,
+          "max_depth": 2,
+          "min_child_weight": 2,
+          "n_estimators": 443,
+          "reg_alpha": 1.1999975480350795,
+          "reg_lambda": 0.05022706182399988,
+          "subsample": 0.6727299868828402
+        },
+        "oof_cv_auc": 0.9991350982986841,
+        "decision_threshold": 0.4855991005897522,
+        "train_seconds": 12.9
+      },
+      "cascade_file": "multitier_xgboost.joblib"
+    },
+    "SVM-RBF": {
+      "tier1_gram": {
+        "file": "tier1_gram_svm_rbf.joblib",
+        "features": [
+          "Crystal_Violet_Retention",
+          "Safranin_Intensity",
+          "Stain_Hue_Angle_deg",
+          "Cell_Wall_Thickness_nm",
+          "Mean_Cell_Area_um2",
+          "Cell_Elongation_Index",
+          "KOH_String_Test",
+          "Cell_Morphology",
+          "Catalase"
+        ],
+        "best_params": {
+          "C": 65.41210527692726,
+          "class_weight": "balanced",
+          "gamma": 0.0035113563139704067,
+          "probability": true
+        },
+        "oof_cv_auc": 0.996206367240861,
+        "decision_threshold": 0.5126754683650082,
+        "train_seconds": 15.1
+      },
+      "tier2_growth": {
+        "file": "tier2_growth_svm_rbf.joblib",
+        "features": [
+          "Growth_Fold_Change",
+          "Time_to_Detection_h",
+          "Occupied_Area_Fraction",
+          "OD600_Read",
+          "Well_DSI",
+          "Cell_Elongation_Index",
+          "Mean_Cell_Area_um2",
+          "Inoculum_log10_CFU_mL",
+          "Antimicrobial"
+        ],
+        "best_params": {
+          "C": 22.673986523780385,
+          "class_weight": null,
+          "gamma": 0.014040609919104432,
+          "probability": true
+        },
+        "oof_cv_auc": 0.998877550329468,
+        "decision_threshold": 0.5585636546082399,
+        "train_seconds": 15.7
+      },
+      "cascade_file": "multitier_svm_rbf.joblib"
+    },
+    "Transformer": {
+      "tier1_gram": {
+        "file": "tier1_gram_transformer.joblib",
+        "features": [
+          "Crystal_Violet_Retention",
+          "Safranin_Intensity",
+          "Stain_Hue_Angle_deg",
+          "Cell_Wall_Thickness_nm",
+          "Mean_Cell_Area_um2",
+          "Cell_Elongation_Index",
+          "KOH_String_Test",
+          "Cell_Morphology",
+          "Catalase"
+        ],
+        "best_params": {
+          "d_token": 24,
+          "n_heads": 4,
+          "n_layers": 2,
+          "ff_mult": 2,
+          "dropout": 0.2,
+          "lr": 0.002,
+          "weight_decay": 0.0001,
+          "batch_size": 512,
+          "max_epochs": 40,
+          "patience": 6,
+          "random_state": 42
+        },
+        "oof_cv_auc": 0.9948351266258406,
+        "decision_threshold": 0.5790961384773254,
+        "train_seconds": 98.5
+      },
+      "tier2_growth": {
+        "file": "tier2_growth_transformer.joblib",
+        "features": [
+          "Growth_Fold_Change",
+          "Time_to_Detection_h",
+          "Occupied_Area_Fraction",
+          "OD600_Read",
+          "Well_DSI",
+          "Cell_Elongation_Index",
+          "Mean_Cell_Area_um2",
+          "Inoculum_log10_CFU_mL",
+          "Antimicrobial"
+        ],
+        "best_params": {
+          "d_token": 24,
+          "n_heads": 4,
+          "n_layers": 2,
+          "ff_mult": 2,
+          "dropout": 0.2,
+          "lr": 0.002,
+          "weight_decay": 0.0001,
+          "batch_size": 512,
+          "max_epochs": 40,
+          "patience": 6,
+          "random_state": 42
+        },
+        "oof_cv_auc": 0.9981784224618586,
+        "decision_threshold": 0.4397794008255005,
+        "train_seconds": 151.3
+      },
+      "cascade_file": "multitier_transformer.joblib"
+    }
+  },
+  "tier3_rule": "series maximum-likelihood MIC from Tier 2 P(growth)",
+  "environment": {
+    "python": "3.11.15",
+    "sklearn": "1.8.0",
+    "xgboost": "3.2.0",
+    "torch": "2.14.0+cu130"
+  }
+}

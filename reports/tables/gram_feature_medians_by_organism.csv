@@ -1,0 +1,8 @@
+Organism,Crystal_Violet_Retention,Safranin_Intensity,Stain_Hue_Angle_deg,Cell_Wall_Thickness_nm,Mean_Cell_Area_um2,Cell_Elongation_Index
+Staphylococcus aureus,0.714,0.284,290.1,25.0,0.917,1.13
+Staphylococcus epidermidis,0.711,0.296,291.2,26.3,0.942,1.11
+Enterococcus faecalis,0.712,0.283,291.7,28.5,1.043,1.593
+Enterococcus faecium,0.704,0.288,292.4,25.8,1.083,1.621
+Escherichia coli,0.305,0.692,313.2,12.6,4.037,6.282
+Klebsiella pneumoniae,0.326,0.678,312.1,11.8,3.91,4.953
+Pseudomonas aeruginosa,0.308,0.69,312.85,12.2,2.868,2.688

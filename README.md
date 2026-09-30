@@ -10,7 +10,7 @@ Rapid digital-microscopy systems image each broth-microdilution well within hour
 ## Data
 | Item | Value |
 |---|---|
-| Source | Synthetic (`src/data/generate_synthetic_data.py`, seed 42); no real patients or isolates |
+| Source | Synthetic data; no real patients or isolates |
 | Unit | One well = isolate × drug × two-fold concentration; 7,320 wells × 30 columns, 274 isolates, **8% missing** at random |
 | Features | Gram-stain imaging (crystal violet, safranin, hue, wall thickness), ID tests (KOH, morphology, catalase), time-lapse growth imaging (cell counts, fold change, area, elongation, time to detection, OD600), panel design, QC |
 | Targets | **T1** Gram Positive 55% / Negative 45% · **T2** Growth 54.6% / No Growth 45.4% · **T3** MIC (17 classes incl. off-scale) + DSI for 466 Gram-positive isolate-drug series |
